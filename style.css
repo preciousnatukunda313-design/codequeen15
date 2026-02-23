@@ -1,6 +1,6 @@
 *{
-    background-color: rgb(174, 174, 225);
-
+    margin:0;
+    padding:0;
 
 }
 h1{
@@ -15,4 +15,23 @@ color: blue;
 }
 .food{
     background-color: rgb(91, 232, 225);
+}
+#sample{
+    background-color: burlywood;
+    border:5px red solid ;
+}
+.first{
+    border-style: dotted;
+    margin: 10px 15px;
+    padding:30px;
+}
+/* my flex box properties */
+.container{
+    background-color: aqua;
+}
+
+.childcontainer{
+    background-color: rgb(226, 43, 180);
+    display: flex;
+    justify-content: space-between;
 }
