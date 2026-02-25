@@ -27,11 +27,46 @@ color: blue;
 }
 /* my flex box properties */
 .container{
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .childcontainer{
     background-color: rgb(226, 43, 180);
     display: flex;
     justify-content: space-between;
+}
+
+h1{
+    background-color: aqua;
+}
+
+/* blue container */
+.blue-container{
+    border:3px blue solid;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.flex-items{
+    border:2px orangered solid;
+    margin:5px
+    flex-direction: column;
+    height:150px;
+    width:100px;
+
+}
+.mine{
+    color: rgb(252, 33, 150);
+    font-size: 50px;
+    margin: 20px;
+}
+/* last container */
+.last{
+    border:10px;
+    display: flex;
+}
+.img{
+    width:30px
+    border-radius: 50%;
 }
