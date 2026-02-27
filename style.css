@@ -51,7 +51,7 @@ h1{
 .flex-items{
     border:2px orangered solid;
     margin:5px
-    flex-direction: column;
+    flex-direction; column;
     height:150px;
     width:100px;
 
@@ -68,5 +68,13 @@ h1{
 }
 .img{
     width:30px
+
+
+    border-radius
+}
+.circle-img{
+    width: 200px;
+    height:200px;
+    object-fit: cover;
     border-radius: 50%;
 }
