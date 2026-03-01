@@ -1,4 +1,4 @@
-*{
+/* *{
     margin:0;
     padding:0;
 
@@ -13,56 +13,56 @@ img{
 .facebook{
 color: blue;
 }
-.food{
+/* .food{
     background-color: rgb(91, 232, 225);
-}
-#sample{
+} */
+/* #sample{
     background-color: burlywood;
-    border:5px red solid ;
-}
+    border:5px red solid ; */
+/* }
 .first{
     border-style: dotted;
     margin: 10px 15px;
-    padding:30px;
+    padding:30px; */
 }
 /* my flex box properties */
-.container{
-    /* background-color: aqua; */
+/* .container{
+    background-color: aqua;
 }
 
 .childcontainer{
     background-color: rgb(226, 43, 180);
     display: flex;
     justify-content: space-between;
-}
+} */
 
-h1{
+/* h1{
     background-color: aqua;
-}
+} */
 
 /* blue container */
-.blue-container{
+/* .blue-container{
     border:3px blue solid;
     display: flex;
     flex-direction: column;
     justify-content:center;
-    align-items: center;
+    align-items: center; */
 }
-.flex-items{
+/* .flex-items{
     border:2px orangered solid;
     margin:5px
-    flex-direction; column;
+    flex-direction; column-count: auto;
     height:150px;
-    width:100px;
+    width:100px; */
 
 }
-.mine{
+/* .mine{
     color: rgb(252, 33, 150);
     font-size: 50px;
-    margin: 20px;
+    margin: 20px; */
 }
 /* last container */
-.last{
+/* .last{
     border:10px;
     display: flex;
 }
@@ -70,11 +70,18 @@ h1{
     width:30px
 
 
-    border-radius
-}
+    border-radius */
+/* }
 .circle-img{
     width: 200px;
     height:200px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 50%; */ */
+}
+
+circle-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    object-fit: cover;
 }
